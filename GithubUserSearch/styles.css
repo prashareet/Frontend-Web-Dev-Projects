@@ -1,0 +1,121 @@
+/* Center the input and button on the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  /* Styling the input */
+  #input-section {
+    width: 300px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #input-section:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Styling the button */
+  button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .profile-details {
+    padding: 20px;
+  }
+  
+  .full-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .username {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .stat p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .profile-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+  }
+  
+  .profile-link:hover {
+    background-color: #0056b3;
+  }
+  
